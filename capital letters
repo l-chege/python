@@ -1,0 +1,8 @@
+name = str(input("enter the string"))
+
+count = 0
+for i in name:
+    if (i.isupper()):
+        count = count+1
+    print("the number of capital letters found in the string is:-", count)
+

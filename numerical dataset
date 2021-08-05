@@ -1,0 +1,8 @@
+list = ["3", "11", "8", "25", "6", "13"]
+
+list = [int(x) for x in list]
+
+list.sort()
+
+print (list)
+

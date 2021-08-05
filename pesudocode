@@ -1,0 +1,36 @@
+# pseudocode:
+#    prompt user for an integer input
+#    read the input and convert it to an integer
+
+temperature =int(input("Please enter a temperature: "))
+
+# pseudocode: while the integer is not 0
+
+while temperature != 0:
+
+    # pseudocode: if the integer is 100 or more, print "it is hot"
+    if temperature >= 100:
+       print("it is hot")
+
+    # pseudocode: if the integer is 60 or else, print "it is cold"
+
+    elif temperature <= 60:
+        print("it is cold")
+
+    # pseudocode: otherwise, print "it is just right"
+
+    else:
+        print("it is just right")
+
+    # pseudocode:
+    #    prompt user for an integer input
+    #    read the input and convert it to an integer
+
+    temperature = int(input("please enter a temperature: "))
+
+# say goodbye
+
+print("Goodbye!")
+
+
+
